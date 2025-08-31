@@ -7,7 +7,7 @@ Este repositório contém os exercícios relacionados à disciplina de **IoT**, 
 Para obter uma cópia local do projeto, utilize o comando abaixo:
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/codecrazes/CP1_IOT.git
 ```
 ## Integrantes do Projeto
 
@@ -78,3 +78,4 @@ A análise incluiu:
 3. O consumo é concentrado em valores baixos, com poucos registros de alto consumo.
 4. Não existe correlação visível clara entre Voltage e Global\_intensity; os pontos se concentram em baixa intensidade, enquanto a tensão permanece estável.
 5. Sim, cada cluster representa um padrão distinto de consumo doméstico — desde momentos de baixo consumo, passando por uso espe
+
