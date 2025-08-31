@@ -1,0 +1,5 @@
+1- 2075259
+2 - Sim, a distribuição da amostra de 1% é semelhante à da base completa, concentrada em valores baixos com poucos registros de alto consumo.
+3- O consumo é concentrado em valores baixos, com poucos registros de alto consumo.
+4- Não existe correlação visível clara entre Voltage e Global_intensity; os pontos se concentram em baixa intensidade, enquanto a tensão permanece estável.
+5- Sim, cada cluster representa um padrão distinto de consumo doméstico — desde momentos de baixo consumo, passando por uso específico de um ambiente/aparelho, até picos de consumo mais altos.
