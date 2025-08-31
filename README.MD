@@ -7,13 +7,16 @@ Este repositório contém os exercícios relacionados à disciplina de **IoT**, 
 Para obter uma cópia local do projeto, utilize o comando abaixo:
 
 ```bash
-git clone https://github.com/codecrazes/CP1_IOT.git
+git clone <URL_DO_REPOSITORIO>
 ```
+
+Substitua `<URL_DO_REPOSITORIO>` pela URL do repositório Git.
+
 ## Integrantes do Projeto
 
 * Caroline Assis Silva (RM557596)
 * Enzo de Moura Silva (RM556532)
-* Luis Henrique Gomes Cardoso (RM558883) 
+* Luis Henrique Gomes Cardoso (RM558883)
 
 ---
 
@@ -47,11 +50,14 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
 
 ---
 
-## Instruções para execução
+## Instruções para os Datasets
 
-Os exercícios utilizam datasets que precisam ser carregados diretamente do computador do usuário.
+Os exercícios utilizam datasets que **não estão incluídos no repositório** devido ao tamanho. Você deve baixar os arquivos e colocá-los na pasta `DataSet/`:
 
-⚠️ **Importante:** Você deve alterar o caminho dos arquivos de acordo com a localização dos datasets na sua máquina.
+* **Dataset 1 (df1)**: [Individual Household Electric Power Consumption](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)
+* **Dataset 2 (df2)**: [Appliances Energy Prediction](https://archive.ics.uci.edu/dataset/374/appliances+energy+prediction)
+
+⚠️ **Importante:** Altere os caminhos nos exercícios de acordo com a localização dos arquivos baixados.
 
 * O parâmetro **`caminho_arquivo`** é utilizado no **exercício 1**.
 * O parâmetro **`caminho_arquivo_2`** é utilizado no **exercício 26**.
@@ -77,5 +83,4 @@ A análise incluiu:
 2. Sim, a distribuição da amostra de 1% é semelhante à da base completa, concentrada em valores baixos com poucos registros de alto consumo.
 3. O consumo é concentrado em valores baixos, com poucos registros de alto consumo.
 4. Não existe correlação visível clara entre Voltage e Global\_intensity; os pontos se concentram em baixa intensidade, enquanto a tensão permanece estável.
-5. Sim, cada cluster representa um padrão distinto de consumo doméstico — desde momentos de baixo consumo, passando por uso espe
-
+5. Sim, cada cluster representa um padrão distinto de consumo doméstico — desde momentos de baixo consumo, passando por uso específico de um ambiente/aparelho, até picos de consumo mais altos.
